@@ -1,0 +1,400 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #000000, #000000);
+
+    height: 100vh;
+    margin: 0;
+}
+
+.nav{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+ font-size: 24px;
+ font-family: Abhaya Libre Medium;
+ font-weight: 500;
+ word-wrap: break-word;
+justify-content: space-evenly;
+text-align: center;
+  }
+
+.nav li{
+  color: rgb(231, 159, 2);
+    margin-right: 15px;
+    padding: 8px, 12px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.nav li:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.contact-container {
+    background:  rgb(231, 159, 2);;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    margin-left: 750px;
+    display: inline-block;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: white;
+ font-family: Anton SC;
+ font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ font-family: Abhaya Libre Medium;
+ font-weight: 500;
+ word-wrap: break-word;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    outline: none;
+}
+
+.input-group label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label,
+.input-group textarea:focus ~ label,
+.input-group textarea:valid ~ label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(29, 29, 29);;
+    transform: scale(1.05);
+}
+
+.direct-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.direct-email a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.direct-email a:hover {
+    text-decoration: underline;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 100px;
+      justify-content: space-evenly;
+    
+    }
+    
+    .footer-nav li{
+      display: inline-block;
+      margin: 0 15px;
+      text-align: center;
+    }
+    .footer-nav li:hover{
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    
+    .instagram-image {
+      width: 60px;
+      height: auto;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .instagram-image:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+
+    .smooch-regular {
+        font-family: "Smooch", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+    
+      .abhaya-libre-regular {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .abhaya-libre-medium {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .abhaya-libre-semibold {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .abhaya-libre-bold {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .abhaya-libre-extrabold {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+    
+      .anton-sc-regular {
+        font-family: "Anton SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .nav{
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
+     font-size: 24px;
+     font-family: Abhaya Libre Medium;
+     font-weight: 500;
+     word-wrap: break-word;
+    justify-content: space-evenly;
+    text-align: center;
+      }
+    
+    .nav li{
+      color: rgb(231, 159, 2);
+        margin-right: 15px;
+        padding: 8px, 12px;
+        border-radius: 5px;
+        display: inline-block;
+        text-align: center;
+        font-style: italic;
+        font-weight: 700;
+    }
+    
+    .nav li:hover{
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    
+    
+    .cover-image {
+      display: flex;
+      justify-content: center;
+    align-items: center;
+    }
+    .overlay-text {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-family: Smooch;
+      font-size: 160px;
+      font-weight: 400;
+      opacity: 0; 
+      transition: opacity 0.3s ease-in-out;
+    }
+    
+    .cover-image:hover .overlay-text {
+      opacity: 1; 
+    }
+    
+    body{
+        background-color: black;
+        color: white;
+    }
+    
+    .intro{
+    color: white;
+     font-size: 24px;
+     font-family: Abhaya Libre Medium;
+     font-weight: 500;
+     word-wrap: break-word;
+    }
+    
+    h3{
+    width: 100%;
+    height: 100%;
+    color: white;
+     font-size: 56px;
+     font-family: Anton SC;
+     font-weight: 400;
+     word-wrap: break-word
+    }
+    
+    p{
+        color: white;
+     font-size: 16px;
+     font-family: Abhaya Libre Medium;
+     font-weight: 500;
+     word-wrap: break-word;
+     padding-left: 50px;
+     padding-right: 50px;
+    }
+    .grid { 
+        display: grid; 
+        grid-template-columns: repeat(12, 1fr); 
+        gap: 10px; 
+        max-width: 100%; 
+        max-height: 100%;
+        margin: auto; 
+        align-items: center;
+        padding: 50px;
+    }
+    .col-6 { grid-column: span 6; }
+    img { width: 100%; display: block; border-radius: 8px; }
+    
+    .skills{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    
+    .photo {
+        grid-column: span 3;
+        background-color: #000000;
+        height: 500px; 
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    }
+    
+    .footer{
+    text-align: center;
+    width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 100px;
+      justify-content: space-evenly;
+    
+    }
+    
+    .footer-nav li{
+      display: inline-block;
+      margin: 0 15px;
+      text-align: center;
+    }
+    .footer-nav li:hover{
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    
+    .instagram-image {
+      width: 60px;
+      height: auto;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .instagram-image:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    
+    h4{
+      color: white;
+     font-size: 20px;
+     font-family: Abhaya Libre Medium;
+     font-weight: 500;
+     word-wrap: break-word;
+     font-style: italic;
+     font-weight: bold;
+    }
